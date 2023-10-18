@@ -52,7 +52,7 @@ build:
     deploy-maven-snapshot:
       filter:
         owner: krishnangovindraj
-        branch: deploy-one-off/test-cross-compilation
+        branch: deploy-one-off--test-cross-compilation
       image: vaticle-ubuntu-22.04
       dependencies: [build]
       command: |
