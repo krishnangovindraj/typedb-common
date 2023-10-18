@@ -51,8 +51,8 @@ build:
         bazel run @vaticle_dependencies//tool/unuseddeps:unused-deps -- list
     deploy-maven-snapshot:
       filter:
-        owner: vaticle
-        branch: master
+        owner: krishnangovindraj
+        branch: deploy-one-off/test-cross-compilation
       image: vaticle-ubuntu-22.04
       dependencies: [build]
       command: |
